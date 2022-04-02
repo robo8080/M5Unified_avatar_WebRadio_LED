@@ -929,7 +929,7 @@ void setup()
   gfx2->fillScreen((uint16_t)TFT_BLACK);  
 
   gfxSetup(&M5.Display);
-  xTaskCreatePinnedToCore(drawLoop, "drawLoop", 2048, NULL, 5, NULL, 0);
+  xTaskCreatePinnedToCore(drawLoop, "drawLoop", 2048, NULL, 5, NULL, 1);
 
   avatar = new Avatar(gfx2);
   if(gfx2->width() >= 135) {
@@ -943,7 +943,7 @@ void setup()
   avatar->addTask(lipSync, "lipSync");
 #else
   gfxSetup(&M5.Display);
-  xTaskCreatePinnedToCore(drawLoop, "drawLoop", 2048, NULL, 5, NULL, 0);
+  xTaskCreatePinnedToCore(drawLoop, "drawLoop", 2048, NULL, 5, NULL, 1);
 #endif
 }
 

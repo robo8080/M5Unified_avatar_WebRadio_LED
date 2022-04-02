@@ -14,7 +14,7 @@ An M5Stack library for rendering avatar faces <https://github.com/meganetaaan/m5
 
 ---
 ### 注意：未対策の不具合が有ります ###
-まだ動作が不安定です。時々画面が真っ黒になったり、リブートしたりします。<br><br><br>
+~~まだ動作が不安定です。時々画面が真っ黒になったり、リブートしたりします。~~<br><br><br>
 
 
 ### このプログラムを動かすのに必要な物 ###
@@ -33,7 +33,7 @@ An M5Stack library for rendering avatar faces <https://github.com/meganetaaan/m5
 
 ---
 ### WiFiの設定 ###
-* M5Unified_avatar_WebRadio_LED.inoの95行目付近、SSIDとPASSWORDを設定してください。
+* "M5Unified_avatar_WebRadio_LED.ino"の95行目付近、SSIDとPASSWORDを設定してください。
 
 ### OLED/LCDのAvatar表示を使用しない場合 ###
 
